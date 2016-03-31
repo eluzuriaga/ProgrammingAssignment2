@@ -8,7 +8,7 @@ really a list containing a function to
 3.  set the value of the inverse
 4.  get the value of the inverse
 
-<!-- -->
+
 
    makeCacheMatrix <- function(x = matrix()) {
     minv <- NULL
@@ -20,7 +20,7 @@ really a list containing a function to
     setinv <- function(inverse) minv <<- inverse
     getinv <- function() minv
     list(set=set, get=get, setinv=setinv, getinv=getinv)
-}
+   }
 
 `cacheSolve`: This function computes the inverse of the special
 "matrix" returned by `makeCacheMatrix` above. If the inverse has
